@@ -20,7 +20,7 @@ function showSubMenuclick(event) {
   const subMenu = findSubMenu(event.target);
   if (subMenu) {
     event.preventDefault();
-    subMenu.classname ='menu_active';
+    subMenu.className = 'menu menu_sub menu_active';
   } else {
     console.log('false');
   }
